@@ -1,0 +1,135 @@
+/*----------------------------------------
+    04. Slider CSS
+/*----------------------------------------*/
+
+.slider-height {
+    height: 700px;
+    &-2 {
+        height: 800px;
+    }
+    &-3 {
+        height: 900px;
+    }
+}
+
+.single-slider {
+    position: relative;
+    left: 0;
+    top: 0;
+    &::before {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.2);
+    }
+    & h1 {
+        font-size: 6rem;
+        color: $white;
+    }
+    & p {
+        color: #fff;
+        font-weight: 600;
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    &-3 {
+        &::before {
+            background: rgba(0, 0, 0, 0.7);
+        }
+    }
+}
+
+.slider__content {
+    position: relative;
+    z-index: 1;
+    &-3 {
+        span {
+            color: $blue;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.slider__form {
+    border: 1px solid #fff3;
+    padding: 40px;
+    padding-bottom: 55px;
+    position: relative;
+    &--inner {
+        & .slider__form--title {
+            & h3 {
+                color: $white;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+.slider__form--input input {
+    width: 100%;
+    height: 50px;
+    border: 0;
+    background: 0;
+    border-bottom: 1px solid #fff3;
+    padding-left: 40px;
+    padding: 0 30px;
+    transition: .3s;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.slider__form--input input::placeholder {
+    color: #ccc;
+}
+
+.slider__form--input::before {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 0;
+    font-family: "fontawesome";
+    color: #fff;
+    font-size: 14px;
+    transform: translateY(-50%);
+}
+
+.slider__form--input.name::before {
+    content: '\f007';
+}
+
+.slider__form--input.email::before {
+    content: '\f003';
+}
+
+.slider__form--input.phone::before {
+    content: '\f095';
+}
+
+.slider__form--input.state::before {
+    content: '\f279';
+}
+
+.slider__form--input.city::before {
+    content: '\f3c5';
+}
+
+.slider__form-btn button {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    background: $green;
+    font-size: 16px;
+    left: 50%;
+    position: absolute;
+    top: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.slider__form--input input:focus {
+    border-color: #fff;
+}

@@ -1,0 +1,137 @@
+/*----------------------------------------
+    09. Appointment CSS
+/*----------------------------------------*/
+
+.appointment-area__inner {
+    box-shadow: 4px 5px 40px 10px #00000022;
+    &-2 {
+        box-shadow: none;
+    }
+}
+
+.appointment__form--inner {
+    background: $green;
+    padding: 40px;
+    & h4 {
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+}
+
+.appointment__inner {
+    background: $blue;
+    padding: 70px 40PX;
+    & form {
+        & input,
+        & #text {
+            width: 100%;
+            height: 70px;
+            line-height: 70px;
+            padding-left: 20px;
+            margin-bottom: 20px;
+            background: $blue-2;
+            outline: none;
+            border: 0;
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: 600;
+            &::placeholder {
+                color: $white;
+            }
+        }
+        & #text {
+            height: 180px;
+            resize: none;
+        }
+    }
+    & button {
+        font-size: 14px;
+    }
+}
+
+.services__appointment--form {
+    & form {
+        & input,
+        & #text2,
+        & #case__select-2 {
+            width: 100%;
+            height: 70px;
+            line-height: 70px;
+            padding-left: 20px;
+            margin-bottom: 20px;
+            background: $white;
+            outline: none;
+            border: 0;
+            color: $black-light;
+            font-size: 15px;
+            font-weight: 600;
+            &::placeholder {
+                color: $black-light;
+            }
+        }
+        & #text2 {
+            height: 180px;
+            resize: none;
+        }
+    }
+}
+
+.team__contact {
+    & form {
+        & input,
+        & #text3 {
+            width: 100%;
+            height: 70px;
+            line-height: 70px;
+            padding-left: 20px;
+            margin-bottom: 20px;
+            background: $white;
+            outline: none;
+            border: 0;
+            color: $black-light;
+            font-size: 15px;
+            font-weight: 600;
+            border: 1px solid #e5e5e5;
+            &::placeholder {
+                color: $black-light;
+            }
+            &:focus {
+                border-color: $green;
+            }
+        }
+        & #text3 {
+            height: 200px;
+            resize: none;
+        }
+    }
+}
+
+.single__counter {
+    & h2 {
+        & span {
+            font-size: 60px;
+        }
+    }
+    &>span {
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+}
+
+.appointment__counter--inner::before,
+.appointment__counter--inner::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 1px;
+    background: #dfe3e2;
+    transform: translate(-50%, -50%);
+}
+
+.appointment__counter--inner::after {
+    width: 1px;
+    height: 100%;
+}

@@ -1,0 +1,73 @@
+/*----------------------------------------
+    05. About CSS
+/*----------------------------------------*/
+
+.about__info {
+    & li {
+        margin-bottom: 15px;
+    }
+    & i {
+        color: $green;
+        margin-right: 5px;
+        font-size: 14px;
+    }
+}
+
+.about__content--inner {
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-left: 6px solid $blue;
+    margin-bottom: 40px;
+    & p {
+        margin-bottom: 0;
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+
+.about__icon i {
+    color: $blue;
+    font-size: 16px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    background: #f3f3f3;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+.about__text {
+    & span {
+        font-size: 16px;
+        text-transform: capitalize;
+    }
+}
+
+.about__bg-img {
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about__author {
+    margin-right: 20px;
+    & img {
+        @include border-radius(50%);
+    }
+}
+
+.author__text {
+    & h3 {
+        color: $blue;
+    }
+    & span {
+        color: #7f7f7f;
+        font-weight: 500;
+        font-size: 16px;
+    }
+}

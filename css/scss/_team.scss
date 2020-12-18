@@ -1,0 +1,146 @@
+/*----------------------------------------
+    07. Team CSS
+/*----------------------------------------*/
+
+.team__social {
+    @include transition(.3s);
+    padding-top: 15px;
+    & ul li {
+        margin: 0 5px;
+        & a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 50%;
+            background: $blue;
+            color: $white;
+        }
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+}
+
+.team__content {
+    border: 1px solid #eee;
+    border-top: 0;
+    padding: 30px;
+    background: $white;
+    @include transition(.3s);
+    &-2 {
+        box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
+        background: $white;
+    }
+}
+
+.team__name {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    & span {
+        font-size: 16px;
+        color: $black-light;
+    }
+}
+
+.team__info p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.team-item {
+    &:hover {
+        & .team__content {
+            background: $blue;
+            & .team__name,
+            & .team__info {
+                & h3,
+                & span,
+                & p {
+                    color: $white;
+                }
+            }
+        }
+        .team__social {
+            & ul li {
+                & a {
+                    background: $white;
+                    color: $blue;
+                    &:hover {
+                        color: $black-light;
+                    }
+                }
+            }
+        }
+    }
+    & .team__link {
+        width: 100%;
+        height: 100%;
+        background: none;
+        left: 0;
+        top: 0;
+        @include transition(.3s);
+        & a {
+            display: none;
+            position: absolute;
+            left: 50%;
+            top: 70%;
+            @include transform(translate(-50%, -50%));
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            @include border-radius(50%);
+            background: $white;
+            color: $black;
+            & i {
+                line-height: 60px;
+                font-size: 24px;
+                @include transition(.3s);
+            }
+            &:hover {
+                background: $black;
+                color: $white;
+            }
+        }
+    }
+    &:hover {
+        & .team__link {
+            background: rgba(0, 0, 0, 0.3);
+            ;
+            & a {
+                top: 50%;
+                display: block;
+            }
+        }
+    }
+}
+
+.team__des--title {
+    & h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #e0e4e4;
+        position: relative;
+        font-weight: normal;
+        color: $green-4;
+    }
+}
+
+.team__experience--item {
+    & h3 {
+        font-size: 24px;
+        font-weight: normal;
+        color: $green-4;
+    }
+}
+
+.team__inner--content h4 {
+    font-weight: normal;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: $green-4;
+}

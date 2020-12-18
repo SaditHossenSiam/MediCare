@@ -1,0 +1,66 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: MediCare, MediCare Services HTML5 Template
+    Template URI: site.com
+    Description: MediCare, MediCare Services HTML5 Template
+    Author: SaditHossenSiam
+    Author URI: site.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+    01. Theme default CSS
+    02. Preloader CSS
+    03. Header CSS
+    04. Slider CSS
+    05. About CSS
+    06. Services CSS
+    07. Team CSS
+    08. Case CSS
+    09. Appointment CSS
+    10. Testimonial CSS
+    11. Client CSS
+    12. Why CSS
+    13. Faq CSS
+    14. Blog CSS
+    15. Counter CSS
+    16. Contact CSS
+    17. Pricing CSS
+    18. Events CSS
+    19. Footer CSS
+    20. Responsive CSS
+
+-----------------------------------------------------------------------------------*/
+
+
+/*----------------------------------------
+    01. Theme default CSS
+/*----------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Roboto:wght@400;500;700;900&display=swap');
+// 1. Theme default css
+@import "variables";
+@import "mixins";
+@import "common";
+@import "preloader";
+@import "header";
+@import "slider";
+@import "about";
+@import "services";
+@import "team";
+@import "case";
+@import "appointment";
+@import "testimonial";
+@import "client";
+@import "why";
+@import "faq";
+@import "blog";
+@import "counter";
+@import "contact";
+@import "pricing";
+@import "events";
+@import "footer";
+@import "responsive";

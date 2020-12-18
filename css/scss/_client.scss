@@ -1,0 +1,19 @@
+/*----------------------------------------
+    11. Client CSS
+/*----------------------------------------*/
+
+.client-area {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.client__thumb img {
+    opacity: .8;
+    transition: 0.3s;
+}
+
+.client__thumb:hover img {
+    opacity: 1;
+}
