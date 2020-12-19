@@ -63,7 +63,9 @@
     &::before {
         position: absolute;
         content: '\f30b';
-        font-family: 'FontAwesome';
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        font-size: 16px;
         color: $green;
         right: 0;
         top: 0;

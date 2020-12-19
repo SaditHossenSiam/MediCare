@@ -91,7 +91,8 @@
     content: '';
     top: 50%;
     left: 0;
-    font-family: "fontawesome";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
     color: #fff;
     font-size: 14px;
     transform: translateY(-50%);
@@ -102,7 +103,7 @@
 }
 
 .slider__form--input.email::before {
-    content: '\f003';
+    content: '\f0e0';
 }
 
 .slider__form--input.phone::before {

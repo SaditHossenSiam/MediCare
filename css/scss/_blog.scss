@@ -165,8 +165,9 @@
         &::before {
             position: absolute;
             content: '\f10d';
-            font-family: "fontawesome";
+            font-family: "Font Awesome 5 Free";
             font-size: 60px;
+            font-weight: 900;
             left: 9%;
             top: 13%;
         }
@@ -414,7 +415,7 @@
     &::before {
         position: absolute;
         content: '';
-        font-family: "fontawesome";
+        font-family: "Font Awesome 5 Free";
         color: $blue;
         right: 20px;
         top: 12px;

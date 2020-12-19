@@ -87,9 +87,10 @@
             &:before {
                 position: absolute;
                 content: '\f061';
-                font-family: "fontawesome";
+                font-family: "Font Awesome 5 Free";
                 top: 50%;
                 right: -25px;
+                font-weight: 900;
                 @include transform(translate(-50%, -50%));
             }
         }

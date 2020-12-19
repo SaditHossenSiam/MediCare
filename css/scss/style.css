@@ -897,7 +897,7 @@ p {
   .main-menu ul li.has-dropdown > a::after {
     position: absolute;
     content: '\f107';
-    font-family: "fontawesome";
+    font-family: "Font Awesome 5 Free";
     left: 100%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -906,7 +906,8 @@ p {
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     margin-left: 10px;
-    font-size: 14px; }
+    font-size: 14px;
+    font-weight: 900; }
   .main-menu ul li a.active::before {
     position: absolute;
     left: 0;
@@ -1247,7 +1248,8 @@ p {
   content: '';
   top: 50%;
   left: 0;
-  font-family: "fontawesome";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   color: #fff;
   font-size: 14px;
   transform: translateY(-50%); }
@@ -1256,7 +1258,7 @@ p {
   content: '\f007'; }
 
 .slider__form--input.email::before {
-  content: '\f003'; }
+  content: '\f0e0'; }
 
 .slider__form--input.phone::before {
   content: '\f095'; }
@@ -1398,7 +1400,9 @@ p {
   .link-btn::before {
     position: absolute;
     content: '\f30b';
-    font-family: 'FontAwesome';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 16px;
     color: #35A692;
     right: 0;
     top: 0;
@@ -1949,11 +1953,12 @@ p {
   .testimonial__content::after {
     position: absolute;
     content: "\f10d";
-    font-family: "fontawesome";
+    font-family: "Font Awesome 5 Free";
     left: 39px;
     top: 22%;
     font-size: 30px;
-    color: #6e8ac1; }
+    color: #6e8ac1;
+    font-weight: 900; }
   .testimonial__content-2 {
     color: #ffffff;
     padding: 20px;
@@ -1969,7 +1974,8 @@ p {
     .testimonial__content-3::before {
       position: absolute;
       content: "\f10d";
-      font-family: "fontawesome";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
       left: -40px;
       top: 0;
       font-size: 30px;
@@ -2347,8 +2353,9 @@ p {
   .postbox__quote::before {
     position: absolute;
     content: '\f10d';
-    font-family: "fontawesome";
+    font-family: "Font Awesome 5 Free";
     font-size: 60px;
+    font-weight: 900;
     left: 9%;
     top: 13%; }
 .postbox.format-quote {
@@ -2543,7 +2550,7 @@ p {
 .contact-icon::before {
   position: absolute;
   content: '';
-  font-family: "fontawesome";
+  font-family: "Font Awesome 5 Free";
   color: #3158A7;
   right: 20px;
   top: 12px;
@@ -3026,9 +3033,10 @@ select {
   .services__list ul li a:before {
     position: absolute;
     content: '\f061';
-    font-family: "fontawesome";
+    font-family: "Font Awesome 5 Free";
     top: 50%;
     right: -25px;
+    font-weight: 900;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);

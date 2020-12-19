@@ -138,12 +138,13 @@
                 &>a::after {
                     position: absolute;
                     content: '\f107';
-                    font-family: "fontawesome";
+                    font-family: "Font Awesome 5 Free";
                     left: 100%;
                     top: 50%;
                     @include transform(translate(-50%, -50%));
                     margin-left: 10px;
                     font-size: 14px;
+                    font-weight: 900;
                 }
             }
             & a.active::before {
