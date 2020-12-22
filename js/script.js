@@ -99,7 +99,7 @@
         arrows: false,
         infinite: true,
         speed: 300,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 3000,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -122,7 +122,7 @@
         arrows: false,
         infinite: true,
         speed: 300,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 3000,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -145,6 +145,10 @@
         centerPadding: '0px',
         slidesToShow: 3,
         slidesToScroll: 1,
+        infinite: true,
+        speed: 300,
+        autoplay: true,
+        autoplaySpeed: 3000,
         dots: false,
         arrows: false,
         responsive: [{
@@ -187,6 +191,9 @@
         loop: true,
         margin: 0,
         responsiveClass: true,
+        autoplay: true,
+        autoplayHoverPause: true,
+        autoplaySpeed: 3000,
         responsive: {
             0: {
                 items: 1,
@@ -219,6 +226,9 @@
         margin: 30,
         nav: false,
         dots: true,
+        autoplay: true,
+        autoplayHoverPause: true,
+        autoplaySpeed: 3000,
         responsiveClass: true,
         responsive: {
             0: {
@@ -245,6 +255,9 @@
         nav: true,
         navText: ['<button><i class="fas fa-angle-left"></i></button>', '<button><i class="fas fa-angle-right"></i></button>'],
         dots: false,
+        autoplay: true,
+        autoplayHoverPause: true,
+        autoplaySpeed: 3000,
         responsiveClass: true,
         responsive: {
             0: {
@@ -275,6 +288,9 @@
         nav: true,
         navText: ['<button><i class="fas fa-long-arrow-alt-left"></i></button>', '<button><i class="fas fa-long-arrow-alt-right"></i></button>'],
         dots: false,
+        autoplay: true,
+        autoplayHoverPause: true,
+        autoplaySpeed: 3000,
         responsiveClass: true,
         responsive: {
             0: {
@@ -301,6 +317,9 @@
         nav: true,
         navText: ['<button><i class="fas fa-long-arrow-alt-left"></i></button>', '<button><i class="fas fa-long-arrow-alt-right"></i></button>'],
         dots: false,
+        autoplay: true,
+        autoplayHoverPause: true,
+        autoplaySpeed: 3000,
         responsiveClass: true,
         responsive: {
             0: {
@@ -326,6 +345,9 @@
         nav: true,
         navText: ['<button><i class="fas fa-long-arrow-alt-left"></i></button>', '<button><i class="fas fa-long-arrow-alt-right"></i></button>'],
         dots: false,
+        autoplay: true,
+        autoplayHoverPause: true,
+        autoplaySpeed: 3000,
         responsiveClass: true,
         responsive: {
             0: {
