@@ -3160,6 +3160,9 @@ select {
     padding: 40px;
     width: calc(100%); } }
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .single-slider h1 {
+    font-size: 4rem; }
+
   .appointment__content {
     padding-left: 0; }
 
@@ -3219,7 +3222,7 @@ select {
   .about__inner img {
     width: 100%; } }
 @media (max-width: 575.98px) {
-  .signle-slider h1 {
+  .single-slider h1 {
     font-size: 4rem; }
 
   .section__title h2 {

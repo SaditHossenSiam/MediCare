@@ -56,6 +56,11 @@
 // .col-sm- (small devices - screen width equal to or greater than 576px---(>=576px)) 
 // Small devices (landscape phones, 576px and up)
 @media #{$sm} {
+    .single-slider {
+        & h1 {
+            font-size: 4rem;
+        }
+    }
     .appointment__content {
         padding-left: 0;
     }
@@ -121,8 +126,10 @@
 // XS Small Device :360px.
 //  X-Small devices (portrait phones, less than 576px)
 @media #{$xs} {
-    .signle-slider h1 {
-        font-size: 4rem;
+    .single-slider {
+        & h1 {
+            font-size: 4rem;
+        }
     }
     .section__title h2 {
         font-size: 3rem;
