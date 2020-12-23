@@ -111,6 +111,11 @@
         font-size: 24px;
         line-height: 34px;
     }
+    .about__inner {
+        & img {
+            width: 100%;
+        }
+    }
 }
 
 // XS Small Device :360px.
@@ -207,5 +212,10 @@
     .postbox__title h3 a {
         font-size: 24px;
         line-height: 34px;
+    }
+    .about__inner {
+        & img {
+            width: 100%;
+        }
     }
 }
